@@ -56,10 +56,16 @@ body{
     content: '';
     background-color: #16a34a;
     width: 8rem;
-    height: 1rem;
+    height: 0.2rem;
     bottom: 0;
     left: 0;
     border-radius: 0.5rem;
+}
+
+.input-box label {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #cbd5e1;
 }
 
 .container .calculator .form .input-field{
@@ -87,11 +93,12 @@ body{
     padding: 0 0.5rem;
 }
 
-.container .calculator .form .input-field .input::-webkit-outer-spin-button, .container .calculator .form .input-field .input::-webkit-inner-spin-button{
-    appearance: none;
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button {
+  appearance: none;
 }
 
-.container .calculator .form .input-field .input:focus{
+.input-field input:focus {
     outline: none;
 }
 
