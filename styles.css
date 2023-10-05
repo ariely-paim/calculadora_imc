@@ -30,7 +30,7 @@ body{
     border-radius: 2rem;
 }
 
-.container .calculator{
+.container #calculator{
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -40,18 +40,18 @@ body{
     border-radius: 1rem;
 }
 
-.container .calculator .form{
+.container #calculator #form{
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.container .calculator .form .title{
+.container #calculator #form .title{
     font-size: 2.25rem;
     position: relative;
 }
 
-.container .calculator .form .title::after{
+.container #calculator #form .title::after{
     position: absolute;
     content: '';
     background-color: #16a34a;
@@ -68,7 +68,7 @@ body{
     color: #cbd5e1;
 }
 
-.container .calculator .form .input-field{
+.container #calculator #form .input-field{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,13 +78,13 @@ body{
     border-radius: 1rem;
 }
 
-.container .calculator .form .input-field span, .container .calculator .form .input-field i{
+.container #calculator #form .input-field span, .container #calculator #form .input-field i{
     color: #f8fafc;
     font-size: 1.4rem;
     padding: 0.6rem 1rem;
 }
 
-.container .calculator .form .input-field input{
+.container #calculator #form .input-field input{
     background-color: transparent;
     border: none;
     width: 100%;
@@ -102,7 +102,7 @@ body{
     outline: none;
 }
 
-.container .calculator .calculate{
+.container #calculator #calculate{
     border: none;
     font-size: 1.25rem;
     font-weight: bold;
@@ -112,8 +112,8 @@ body{
     cursor: pointer;
 }
 
-.container .calculator
-.result{
+.container #calculator
+#result{
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -121,21 +121,21 @@ body{
     padding: 0.75 0;
 }
 
-.container .calculator
-.result .bmi{
+.container #calculator
+#result #bmi{
     display: flex;
     align-items: center;
     flex-direction: column;
     font-size: 2.25rem;
 }
 
-.container .calculator
-.result .bmi span:last-child{
+.container #calculator
+#result #bmi span:last-child{
     font-size: 0.875rem;
     color:#cbd5e1;
 }
 
-.description{
+#description{
     width: 15.5rem;
  }
  
@@ -160,7 +160,7 @@ body{
     color: #cbd5e1;
 }
 
- .hidden {
+.hidden {
     display: none;
 }
 
